@@ -1,0 +1,151 @@
+
+h1 {
+	font-family:Luminari,fantasy;
+	color:#FFE4B5;
+
+	width:170px;
+	text-decoration:underline;
+	font-style:italic; 
+	
+
+}
+body
+{background:#C0C0C0 ;
+	background-attachment:fixed;
+    height: auto;
+	background-size:100% 120%;
+	border-radius: 50px 0 0 50px;
+	/*margin:;*/
+
+
+}
+.video{
+	width: 50%;
+	height: 100vh;	
+}
+.container{
+	color:#FFDAB9;
+  font-family: 'Comfortaa', cursive;
+	
+	text-shadow: 2px 2px 4px black, 0 0 2em black;
+text-align:justify;
+margin: 0 8px; 
+}
+#span1{
+	color:#FFE4B5;
+	font-style:italic; 
+}
+a:link{
+	color:hotpink;
+}
+a:hover{
+	color:pink;
+}
+
+/*#span2{color:#FFD700;
+	font-style:italic; 
+
+}*/
+ul {
+    list-style-image: url(logo.png);
+    margin-left: 50px;
+   }
+
+
+
+pre{
+	color:red	;
+}
+.fullscreen-bg {
+position:fixed;
+top: 40px;
+left:-100px;
+min-width: 100%;
+min-height: 100%;
+width: 120%;
+height: 160%;
+z-index: -100;
+overflow: hidden;
+}
+.fullscreen-bg video{
+min-height: 700px;
+min-width: 100%;
+width: 100%;
+background-position: center center;
+background-attachment:fixed;	 
+}
+.text-center{
+	text-align:center;
+	padding:.8em;
+	font-family:Comic sans ms;
+	
+}
+.intro{
+width:100%;
+height:125vh;
+margin:0;
+background-image:url(2.jpg); 
+background-repeat:no-repeat;
+background-size:100%;
+}  
+
+.intro>h1{
+  width:100%;
+  max-width:73%;
+  margin: 0 auto;
+}
+
+.intro>.nav{
+  width:100%;
+  max-width:27%;
+  margin: 0 auto;
+}
+
+.intro-content{
+  height: 100%;
+  color: #FDC34D;
+  font-size: 40px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ text-shadow: 2px 2px 2px black, 0 0 2em black,1px -1px 3px black ;
+}
+.nav{
+  float: right;
+  text-transform: uppercase;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  display:block;
+}
+.nav-lists{
+  display: flex;
+  list-style: none;
+  margin:0 0 0 10px;
+  
+}
+.nav-lists li{
+  margin:0 10px 0 0;
+
+}
+.nav-lists a{
+  color:red;
+  text-decoration: none;
+
+  transition: .1s; 
+}
+.nav-lists a:hover{
+  border-bottom:2px solid #b4aaaa; 
+  color:#b4aaaa;
+}
+*{
+	padding: 0;
+	margin:0;
+}
+.plat{
+  color:greenyellow;
+}
+.dva{
+  color:hotpink;
+}
